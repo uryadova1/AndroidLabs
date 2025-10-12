@@ -10,7 +10,7 @@ class AActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_a) // подключаем XML layout
+        setContentView(R.layout.activity_a)
 
         Log.d("Lifecycle", "AActivity: onCreate")
 

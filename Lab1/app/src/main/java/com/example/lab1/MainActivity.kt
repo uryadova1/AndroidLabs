@@ -9,9 +9,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Запуск AActivity сразу при старте приложения
         val intent = Intent(this, AActivity::class.java)
         startActivity(intent)
-        finish() // чтобы MainActivity не оставалась в стеке
+        finish()
     }
 }
