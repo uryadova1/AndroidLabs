@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="convert_button">Convert</string>
+    <string name="url">https://www.cbr-xml-daily.ru/daily_json.js</string>
+    <string name="hint_str">Choose valute</string>
+    <string name="incorrect_data">Insert correct data!</string>
+    <string name="no_data">Unable to load valute!</string>
+    <string name="input_string">Enter value</string>
+    <string name="open_conv_button">Converter</string>
+    <string name="currencies_list_button">Valute list</string>
+    <string name="welcomemsg">Welcome to Valute Converter</string>
+    <string name="convert_from">Convert from:</string>
+    <string name="convert_to">Convert to:</string>
+    <string name="res">Result:</string>
+</resources>
