@@ -7,7 +7,6 @@
     android:padding="12dp"
     android:background="@drawable/bg_track_item">
 
-    <!-- Обложка трека -->
     <ImageView
         android:id="@+id/ivCover"
         android:layout_width="56dp"
@@ -20,7 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
-    <!-- Название трека -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
@@ -34,7 +32,6 @@
         app:layout_constraintEnd_toStartOf="@id/ivPlay"
         android:layout_marginStart="12dp"/>
 
-    <!-- Исполнитель -->
     <TextView
         android:id="@+id/tvArtist"
         android:layout_width="0dp"
@@ -46,7 +43,6 @@
         app:layout_constraintTop_toBottomOf="@id/tvTitle"
         app:layout_constraintEnd_toEndOf="@id/tvTitle"/>
 
-    <!-- Продолжительность -->
     <TextView
         android:id="@+id/tvDuration"
         android:layout_width="wrap_content"
@@ -57,7 +53,6 @@
         app:layout_constraintEnd_toStartOf="@id/ivPlay"
         app:layout_constraintTop_toTopOf="@id/tvTitle"/>
 
-    <!-- Кнопка воспроизведения -->
     <ImageView
         android:id="@+id/ivPlay"
         android:layout_width="36dp"
